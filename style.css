@@ -1,0 +1,127 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  
+  /* Header */
+  header {
+    background: #060105c8;
+    color: white;
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+  
+  header .logo {
+    font-size: 1.5rem;
+  }
+  
+  header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+  }
+  
+  header nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Hero Section */
+  #hero {
+    background: linear-gradient(to right, #6a11cb, #adc6f1);
+    color: white;
+    text-align: center;
+    padding: 5rem 1rem;
+  }
+  
+  #hero .highlight {
+    color: #ffb400;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    margin-top: 2rem;
+    padding: 0.5rem 2rem;
+    background: #ffb400;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: background 0.3s;
+  }
+  
+  .cta-button:hover {
+    background: #ff9f00;
+  }
+  
+  /* Section */
+  .section {
+    padding: 3rem 1rem;
+  }
+  
+  .projects-grid {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+  
+  .project-card {
+    background: #f4f4f4;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project-card:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  /* Form */
+  form {
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  form button {
+    display: inline-block;
+    padding: 0.75rem 2rem;
+    background: #6a11cb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background: #2575fc;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #222;
+    color: white;
+  }
+  
